@@ -1,4 +1,3 @@
-
 function calculateTotal() {
   let p1 = document.getElementById("price1").value;
   let p2 = document.getElementById("price2").value;
@@ -7,6 +6,3 @@ function calculateTotal() {
 
   document.getElementById("result").innerText = "Total: ₹" + total;
 }
-document.getElementById("price1").value
-let gst = total * 0.18;
-let final = total + gst;

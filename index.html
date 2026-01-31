@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First JS</title>
+  <title>Day 3 - Price Calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Hello JavaScript</h1>
-  <button onclick="alert('Hello World!')">Click Me</button>
+  <h1>Service Price Calculator</h1>
 
+  <input type="number" id="price1" placeholder="Service 1 Price"><br><br>
+  <input type="number" id="price2" placeholder="Service 2 Price"><br><br>
+
+  <button onclick="calculateTotal()">Calculate Total</button>
+
+  <h2 id="result">Total: ₹0</h2>
+
+  <script src="script.js"></script>
 </body>
 </html>
-<button id="btn">Click Me</button>
-<script src="script.js"></script>
