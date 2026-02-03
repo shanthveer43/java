@@ -1,8 +1,0 @@
-function calculateTotal() {
-  let p1 = document.getElementById("price1").value;
-  let p2 = document.getElementById("price2").value;
-
-  let total = Number(p1) + Number(p2);
-
-  document.getElementById("result").innerText = "Total: ₹" + total;
-}

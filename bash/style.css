@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 60px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+input, select {
+  padding: 8px;
+  width: 220px;
+}
+
+#formBox {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}

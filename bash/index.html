@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salon Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>ABC Salon</h1>
+  <p>Book your service instantly</p>
+
+  <button onclick="openForm()">Book Now</button>
+
+  <div id="formBox">
+    <h2>Booking Form</h2>
+
+    <input type="text" id="name" placeholder="Name"><br><br>
+    <input type="number" id="phone" placeholder="Phone"><br><br>
+
+    <select id="service">
+      <option value="">Select Service</option>
+      <option>Haircut</option>
+      <option>Facial</option>
+      <option>Spa</option>
+    </select><br><br>
+
+    <button onclick="sendWhatsApp()">Confirm Booking</button>
+    <button onclick="closeForm()">Close</button>
+
+    <p id="msg"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
